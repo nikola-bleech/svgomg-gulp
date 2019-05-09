@@ -1,0 +1,15 @@
+{
+  "name": "svg-minify",
+  "version": "1.0.0",
+  "description": "Minify svg as SVGOMG",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikola Jovanovic",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-svgmin": "^2.2.0"
+  }
+}
