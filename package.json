@@ -9,7 +9,10 @@
   "author": "Nikola Jovanovic",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1",
     "gulp-svgmin": "^2.2.0"
+  },
+  "devDependencies": {
+    "del": "^4.1.1",
+    "gulp": "^3.9.1"
   }
 }

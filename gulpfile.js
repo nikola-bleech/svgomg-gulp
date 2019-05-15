@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var svgmin = require('gulp-svgmin');
+var del = require('del');
 
 gulp.task('default', function () {
     return gulp.src('svg/src/*.svg')
@@ -108,4 +109,8 @@ gulp.task('default', function () {
 	    	}]
 	    }))
 	    .pipe(gulp.dest('svg/dist'));
+});
+
+gulp.task('clean', function() {
+	return del('svg/src/*.svg');
 });
